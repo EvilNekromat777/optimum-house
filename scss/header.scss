@@ -1,0 +1,28 @@
+.header{
+	background-color: #3D3D3D;
+	width: 100%;
+	&__body{
+		padding: 14px 0px 16px 0px;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__nav{
+		margin: 10px 0px 0px 0px;
+	}
+	&__link{
+		color: #fff;
+		margin: 0px 70px 0px 0px;
+		padding: 0px 0px 0px 0px;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		&:last-child{
+			margin: 0px 0px 0px 0px;
+		}
+	}
+	&__tel{
+			margin: 10px 0px 0px 0px;
+			color: #fff;
+	}
+}

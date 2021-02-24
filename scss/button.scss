@@ -1,0 +1,56 @@
+.button{
+	background: #DE0111;
+	border-radius: 5px;	
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 140%;
+	text-align: center;
+	color: #FFFFFF;
+	&__frame{
+		width: 128px;
+		height: 33px;
+	}
+	&__banner1{
+		width: 283px;
+		height: 44px;
+		margin: 130px 0px 0px 0px;
+		position: relative;
+		z-index: 2;
+	}
+	&__slider{
+		width: 150px;
+		height: 36px;
+	}
+	&__technologies{
+		width: 168px;
+		height: 42px;
+	}
+	&__video{
+		width: 364px;
+		height: 42px;
+		background: #345995;
+		margin: 34px 0px 0px 0px;
+	}
+	&__mikea{
+		width: 160px;
+		height: 42px;
+	}
+	&__mikea1{
+		width: 190px;
+		height: 42px;
+		background: #345995;
+	}
+	&__timing1{
+		width: 242px;
+		height: 42px;
+		background: #DE0111;
+		margin: 0px 20px 0px 0px;
+	}
+	&__timing2{
+		width: 170px;
+		height: 42px;
+		background: #345995;
+	}
+}
