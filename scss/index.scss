@@ -6,6 +6,7 @@
 @import "header.scss";
 @import "footer.scss";
 @import "button.scss";
+@import "slider.scss";
 
 // Обнуление: общие параметры
 @import "null.scss";
@@ -258,45 +259,9 @@
 //========================================================>
 
 .reviews{
-	margin: 70px 0px 0px 0px;
-}
-.slider{
-	&__item{
-		display: flex;
-		max-width: 1110px;
-		margin: 0 auto;
-		padding: 70px 108px 70px 114px;
-		position: relative;
-	}
-	&__item-quotes{
-		position: absolute;
-		top: 32px;
-		left: 60px;
-	}
-	&__item-title{
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 50px;
-		line-height: 120%;
-		color: #3D3D3D;
-	}
-	&__item-text{
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 22px;
-		line-height: 140%;
-		display: flex;
-		align-items: center;
-		color: #696969;
-		margin: 19px 0px 0px 0px;
-	}
-	&__item-main{
-		display: flex;
-		justify-content: space-between;
-		margin: 35px 0px 0px 0px;
-	}
+	margin: 70px auto 0px;
+	max-width: 1110px;
+	position: relative;
 }
 
 //========================================================>
