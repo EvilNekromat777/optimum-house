@@ -1,27 +1,3 @@
-//$(document).ready(function(){
-//	$('.slider').slick({
-//		//arrows:true,
-//		//dots:true,
-//		//slidesToShow:1,
-//		//autoplay:false,
-//		//speed:1000,
-//		//autoplaySpeed:800,
-//		//responsive:[
-//		//	{
-//		//		breakpoint: 768,
-//		//		settings: {
-//		//			slidesToShow:2
-//		//		}
-//		//	},
-//		//	{
-//		//		breakpoint: 550,
-//		//		settings: {
-//		//			slidesToShow:1
-//		//		}
-//		//	}
-//		//]
-//	});
-//});
 
 $('.slider').slick({
 	dots: true,
@@ -30,3 +6,22 @@ $('.slider').slick({
 	slidesToShow: 1,
 	adaptiveHeight: true
  });
+ $('.slider2').slick({
+	dots: true,
+	infinite: true,
+	speed: 300,
+	slidesToShow: 1,
+	adaptiveHeight: true
+ });
+// =============================================>
+//https://jqueryui.com/tabs/
+
+//$(document).ready(function(){
+//	$(".layout__button").click(function(){
+//		 $(this).toggleClass("active");
+//	});
+//});
+
+$( function() {
+	$( "#selectable" ).selectable();
+ } );

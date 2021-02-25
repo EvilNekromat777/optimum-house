@@ -46,6 +46,18 @@
 .slick-list{
 	overflow: hidden;
 }
+//============================================================>
+
+.slider2{
+	&__item{
+		max-width: 1095px;
+		max-height: 724px;
+		position: relative;
+	}
+}
+
+
+
 
 //============================================================>
 .slider__item_decision{

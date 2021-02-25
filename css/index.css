@@ -152,6 +152,12 @@
   overflow: hidden;
 }
 
+.slider2__item {
+  max-width: 1095px;
+  max-height: 724px;
+  position: relative;
+}
+
 .slider__item_decision {
   margin: 38px auto 0px;
   background: #3459951f;
@@ -617,6 +623,9 @@ h6 {
   height: 382px;
   margin: 0px 110px 0px 0px;
 }
+.mikea1__head-info {
+  margin: 0 auto;
+}
 .mikea1__head-title {
   font-family: Roboto;
   font-style: normal;
@@ -793,6 +802,9 @@ h6 {
   margin: 50px 0px 57px 0px;
   padding: 41px 0px 78px 0px;
 }
+.decision__slider {
+  position: relative;
+}
 .decision__title {
   max-width: 570px;
   text-align: center;
@@ -902,13 +914,13 @@ h6 {
   display: none;
 }
 
-.active {
+.ui-selected {
   background: rgba(52, 89, 149, 0.1);
   font-weight: bold;
   font-size: 22px;
   color: #345995;
 }
-.active span {
+.ui-selected span {
   display: inline-block;
 }
 
