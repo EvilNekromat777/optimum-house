@@ -46,3 +46,52 @@
 .slick-list{
 	overflow: hidden;
 }
+
+//============================================================>
+.slider__item_decision{
+	margin: 38px auto 0px;
+	background: #3459951f;
+	position: relative;
+	width: 1095px;
+	height: 724px;
+}
+.slider__item_decision-body{
+	position: absolute;
+	top: -50px;
+	left: 0;
+	img{
+	}
+}
+.slider__item_decision-plashka{
+	background: #DE0111;
+	border-radius: 5px;
+	height: 36px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 140%;
+	text-align: center;
+	color: #FFFFFF;
+	position: absolute;
+	display: inline-flex;
+	padding: 0px 22px 0 22px;
+	align-items: center;
+	cursor: pointer;
+	&_besedka{
+		top: 33%;
+		left: 15%;
+	}
+	&_mikea5{
+		top: 20%;
+		left: 38%;
+	}
+	&_banya{
+		top: 47%;
+		left: 27%;
+	}
+	&_naves{
+		top: 34%;
+		left: 71%;
+	}
+}

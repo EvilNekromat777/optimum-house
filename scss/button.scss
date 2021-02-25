@@ -53,4 +53,22 @@
 		height: 42px;
 		background: #345995;
 	}
+	&__details{
+		height: 45px;
+		width: 261px;
+		padding: 12px 0px 0px 0px;
+		span{
+			margin: 0px 0px 0px 7px;
+		}
+	}
+	&__rent-red{
+		height: 50px;
+		width: 230px;
+		margin: 0px 20px 0px 0px;
+	}
+	&__rent-blue{
+		height: 50px;
+		width: 160px;
+		background: #345995;
+	}
 }
