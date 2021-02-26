@@ -1800,6 +1800,7 @@ h6 {
   font-size: 16px;
   line-height: 150%;
   color: #3D3D3D;
+  cursor: pointer;
 }
 .mortgage__time-item.active {
   background: #345995;
