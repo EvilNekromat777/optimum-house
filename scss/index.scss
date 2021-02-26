@@ -1390,3 +1390,211 @@
 		color: rgba(255, 255, 255, 0.7);
 	}
 }
+
+//============================================================>
+.mortgage{
+	padding: 40px 40px 72px 43px;
+	margin: 0px 0px 70px 0px;
+	&__info{
+		display: flex;
+		margin: 0px 0px 30px 0px;
+		img{
+			margin: 0px 20px 0px 0px;
+		}
+	}
+	&__body{
+		max-width: 450px;
+	}
+	&__text{
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 22px;
+		line-height: 140%;
+		color: #3D3D3D;
+		margin: 0px 0px 30px 0px;
+	}
+	&__text-title{
+		margin: 30px 0px 0px 0px;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 22px;
+		line-height: 140%;
+		color: #3D3D3D;
+	}
+	&__items{
+		display: flex;
+		justify-content: space-between;
+		padding: 25px 0px 0px 0px;
+	}
+	&__item{
+		width: 398px;
+		height: 240px;
+		background: #3459951f;
+		padding: 0px 30px 40px 30px;
+		border-radius: 6px;
+	}
+	&__item_active{
+		background: #345995;
+	}
+	
+	&__strings{
+		margin: 20px 0px 0px 0px;
+	}
+	&__string{
+		display: flex;
+		justify-content: space-between;
+		padding: 10px 0px 10px 0px;
+		border-bottom: 1px solid #345995;
+		&:last-child{
+			border-bottom: 0px;
+		}
+	}
+	&__string-text{
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 150%;
+		color: #3D3D3D;
+	}
+	&__string-text_bold{
+		font-weight: bold;
+	}
+	&__string-border{
+		display: flex;
+		justify-content: space-between;
+		padding: 10px 0px 10px 0px;
+		border-bottom: 1px solid #345995;
+		margin: 0px 0px 52px 0px;
+	}
+	&__string-border_active{
+		border-bottom: 1px solid #FFFFFF;
+	}
+	&__string_active{
+		color: #FFFFFF;
+	}
+	&__conditions{
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 150%;
+		color: #345995;
+		text-decoration-line: underline;
+	}
+	&__form{
+		display: flex;
+		justify-content: space-between;
+		margin: 40px 0px 0px 0px;
+	}
+	&__form-item{
+		width: 398px;
+	}
+	&__form-title{
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 150%;
+		color: #2B2B2B;
+		margin: 0px 0px 13px 10px;
+	}
+	&__form-title_time{
+		margin: 0px 0px 13px 30px;
+	}
+	&__form-select{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 50px;
+		width: 100%;
+		background: #3459951f;
+		border-radius: 5px;
+		padding: 0px 22px 0px 11px;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 150%;
+		color: #3D3D3D;
+		img{
+			width: 12.31px;
+			height: 6px;
+			cursor: pointer;
+			margin: 5px 0px 0px 0px;
+		}
+	}
+	&__time{
+		display: flex;
+		justify-content: space-between;
+	}
+	&__time-item{
+		width: 64px;
+		height: 50px;
+		border-radius: 5px;
+		background: #3459951f;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 150%;
+		color: #3D3D3D;
+	}
+	&__time-item.active{
+		background: #345995;
+		color: #FFFFFF;
+	}
+	&__calculator{
+		margin: 44px 0px 0px 0px;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__calculator-item{
+		display: flex;
+		justify-content: space-between;
+		max-width: 398px;
+		width: 100%;
+		height: 77px;
+		padding: 0px 40px 0px 11px;
+	}
+	&__calculator-item_padding-left_null{
+		padding: 0px 40px 0px 0px;
+	}
+	&__calculator-item_padding-right_null{
+		padding: 0px 0px 0px 0px;
+		display: flex;
+		align-items:flex-end;
+	}
+	&__calculator-item-title{
+		margin: 0px 0px 10px 0px;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 150%;
+		color: #2B2B2B;
+	}
+	&__calculator-item-price{
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 22px;
+		line-height: 140%;
+		color: #2B2B2B;
+	}
+	&__calculator-item-payment{
+		padding: 0px 0px 0px 12px;
+		display: flex;
+		align-items: flex-start;
+		justify-content: center;
+		flex-direction: column;
+		width: 179px;
+		background: #F5F5F5;
+		border-radius: 5px;
+	}
+}
