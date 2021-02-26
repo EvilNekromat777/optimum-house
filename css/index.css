@@ -1679,9 +1679,26 @@ h6 {
   background: #3459951f;
   padding: 0px 30px 40px 30px;
   border-radius: 6px;
+  cursor: pointer;
 }
-.mortgage__item_active {
+.mortgage__stock {
+  width: 398px;
+  height: 240px;
+  background: #3459951f;
+  padding: 0px 30px 40px 30px;
+  border-radius: 6px;
+}
+.mortgage__item.active {
   background: #345995;
+}
+.mortgage__item.active .mortgage__string-text {
+  color: #FFFFFF;
+}
+.mortgage__item.active .mortgage__text-title {
+  color: #FFFFFF;
+}
+.mortgage__item.active .mortgage__string {
+  border-bottom: 1px solid #FFFFFF;
 }
 .mortgage__strings {
   margin: 20px 0px 0px 0px;
@@ -1712,12 +1729,6 @@ h6 {
   padding: 10px 0px 10px 0px;
   border-bottom: 1px solid #345995;
   margin: 0px 0px 52px 0px;
-}
-.mortgage__string-border_active {
-  border-bottom: 1px solid #FFFFFF;
-}
-.mortgage__string_active {
-  color: #FFFFFF;
 }
 .mortgage__conditions {
   font-family: Roboto;

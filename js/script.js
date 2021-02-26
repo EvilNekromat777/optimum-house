@@ -31,3 +31,16 @@ $(document).ready(function () {
 		$(this).attr('placeholder', $(this).data('placeholder'));
 	});
 });
+
+// =============================================>
+
+//Переключение класса у кнопок
+$('.mortgage__time-item').click(function(){
+		$('.mortgage__time-item').removeClass('active');
+		$(this).addClass('active');
+});
+
+$('.mortgage__item').click(function(){
+	$('.mortgage__item').removeClass('active');
+	$(this).addClass('active');
+});

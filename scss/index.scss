@@ -1434,11 +1434,27 @@
 		background: #3459951f;
 		padding: 0px 30px 40px 30px;
 		border-radius: 6px;
+		cursor: pointer;
 	}
-	&__item_active{
+	&__stock{
+		width: 398px;
+		height: 240px;
+		background: #3459951f;
+		padding: 0px 30px 40px 30px;
+		border-radius: 6px;
+	}
+	&__item.active{
 		background: #345995;
 	}
-	
+	&__item.active .mortgage__string-text{
+		color: #FFFFFF;
+	}
+	&__item.active .mortgage__text-title{
+		color: #FFFFFF;
+	}
+	&__item.active .mortgage__string{
+		border-bottom: 1px solid #FFFFFF;
+	}
 	&__strings{
 		margin: 20px 0px 0px 0px;
 	}
@@ -1468,12 +1484,6 @@
 		padding: 10px 0px 10px 0px;
 		border-bottom: 1px solid #345995;
 		margin: 0px 0px 52px 0px;
-	}
-	&__string-border_active{
-		border-bottom: 1px solid #FFFFFF;
-	}
-	&__string_active{
-		color: #FFFFFF;
 	}
 	&__conditions{
 		font-family: Roboto;
