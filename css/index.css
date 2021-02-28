@@ -121,6 +121,7 @@
 .button__mainform {
   height: 50px;
   width: 280px;
+  margin: 20px 0px 0px 0px;
 }
 .button__mortgage {
   width: 398px;
@@ -244,6 +245,19 @@
 .slider__item_decision-plashka_naves {
   top: 34%;
   left: 71%;
+}
+
+.slider__layout {
+  max-width: 760px;
+  max-height: 590px;
+  margin: -20px 0px 0px 0px;
+}
+.slider__layout__item-layout {
+  display: flex;
+  max-width: 758px;
+  max-height: 590px;
+  margin: 0 auto;
+  position: relative;
 }
 
 * {
@@ -913,6 +927,29 @@ h6 {
   max-width: 149px;
 }
 
+.layout__img-p {
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #696969;
+  margin: 20px 0px 0px 0px;
+}
+.layout__img {
+  position: relative;
+  margin: 0px 80px 0px 0px;
+}
+.layout__arrow-prev {
+  position: absolute;
+  top: 43%;
+  left: -58px;
+}
+.layout__arrow-next {
+  position: absolute;
+  top: 43%;
+  right: -58px;
+}
 .layout__title {
   display: flex;
   align-items: flex-end;
@@ -1596,15 +1633,21 @@ h6 {
   font-size: 32px;
   line-height: 120%;
   color: #3D3D3D;
-  margin: 0px 0px 25px 0px;
+  margin: 0px 0px 5px 0px;
 }
 
+.form {
+  max-width: 280px;
+}
+.form__error {
+  color: red;
+}
 .form__input {
   width: 280px;
   height: 50px;
   background: #3459951f;
   border-radius: 5px;
-  margin: 0px 0px 20px 0px;
+  margin: 20px 0px 0px 0px;
   padding: 0px 0px 0px 10px;
 }
 
@@ -1850,6 +1893,18 @@ h6 {
 .mortgage__form-title_time {
   margin: 0px 0px 13px 30px;
 }
+.mortgage__select {
+  position: relative;
+}
+.mortgage__select-arrow {
+  position: absolute;
+  top: 40%;
+  right: 0;
+  width: 34px;
+  margin: 0px 0px 0px 0px;
+  background: #e6ebf2;
+  cursor: pointer;
+}
 .mortgage__form-select {
   display: flex;
   justify-content: space-between;
@@ -1858,13 +1913,14 @@ h6 {
   width: 100%;
   background: #3459951f;
   border-radius: 5px;
-  padding: 0px 22px 0px 11px;
+  padding: 0px 0px 0px 11px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 150%;
   color: #3D3D3D;
+  cursor: pointer;
 }
 .mortgage__form-select img {
   width: 12.31px;

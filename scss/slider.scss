@@ -123,3 +123,18 @@
 		left: 71%;
 	}
 }
+
+//============================================================>
+.slider__layout{
+	max-width: 760px;
+	max-height: 590px;
+	margin: -20px 0px 0px 0px;
+	&__item-layout{
+		display: flex;
+		max-width: 758px;
+		max-height: 590px;
+		margin: 0 auto;
+		position: relative;
+		//margin: 0px 5px 0px 15px;
+	}
+}
