@@ -44,3 +44,17 @@ $('.mortgage__item').click(function(){
 	$('.mortgage__item').removeClass('active');
 	$(this).addClass('active');
 });
+
+//=============================================>
+$('.header__link').click(function(event){
+	event.preventDefault();
+	$('.header-plashka').removeClass('active');
+	$('.header__link').removeClass('active');
+	$('.banner1').removeClass('active');
+	$(this).addClass('active');
+});
+
+$('.header__link_projects').click(function(){
+	$('.header-plashka').addClass('active');
+	$('.banner1').addClass('active');
+});

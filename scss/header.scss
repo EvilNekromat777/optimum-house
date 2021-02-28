@@ -1,6 +1,8 @@
 .header{
 	background-color: #3D3D3D;
 	width: 100%;
+	position: relative;
+	z-index: 5;
 	&__body{
 		padding: 14px 0px 16px 0px;
 		display: flex;
@@ -24,5 +26,14 @@
 	&__tel{
 			margin: 10px 0px 0px 0px;
 			color: #fff;
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 14px;
+			line-height: 150%;
 	}
 }
+
+.header__link.active{
+	color: #D0D0D0;
+} 
