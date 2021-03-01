@@ -196,7 +196,7 @@ h6 {
   margin: 10px 0px 0px 0px;
 }
 .header__link {
-  color: #fff;
+  color: #D0D0D0;
   margin: 0px 70px 0px 0px;
   padding: 0px 0px 0px 0px;
   font-family: Roboto;
@@ -206,6 +206,9 @@ h6 {
 }
 .header__link:last-child {
   margin: 0px 0px 0px 0px;
+}
+.header__link:hover {
+  color: #FFFFFF;
 }
 .header__tel {
   margin: 10px 0px 0px 0px;
@@ -218,7 +221,7 @@ h6 {
 }
 
 .header__link.active {
-  color: #D0D0D0;
+  color: #FFFFFF;
 }
 
 .header-plashka {
@@ -1148,7 +1151,7 @@ h6 {
   line-height: 140%;
   color: #3D3D3D;
   margin: 0px 0px 38px 0px;
-  width: 314px;
+  width: 350px;
   text-align: left;
 }
 .video__iframe {
@@ -1733,6 +1736,9 @@ h6 {
   color: #3D3D3D;
   margin: 27px 0px 50px 0px;
 }
+.details__title {
+  margin: 0;
+}
 .details img {
   margin: 0px 0px 75px 0px;
 }
@@ -1843,8 +1849,7 @@ h6 {
   text-align: center;
   padding: 0px 0px 20px 0px;
   line-height: 120%;
-  transform: translate(0px, 0px);
-  opacity: 1;
+  margin: 0;
 }
 .decision__text {
   margin: 0px auto;
@@ -2063,6 +2068,11 @@ h6 {
 .layout__button span {
   margin: 18px 0px 0px 0px;
   display: none;
+}
+.layout__button:hover {
+  border: 1px solid rgba(52, 89, 149, 0.1);
+  box-sizing: border-box;
+  color: #345995;
 }
 
 .ui-selected {
@@ -4191,6 +4201,9 @@ h6 {
   text-align: center;
   color: #FFFFFF;
 }
+.button:hover {
+  background: #BD000E;
+}
 .button__frame {
   width: 128px;
   height: 33px;
@@ -4217,6 +4230,9 @@ h6 {
   background: #345995;
   margin: 30px 0px 0px 0px;
 }
+.button__video:hover {
+  background: #1D427D;
+}
 .button__mikea {
   width: 160px;
   height: 42px;
@@ -4226,16 +4242,21 @@ h6 {
   height: 42px;
   background: #345995;
 }
+.button__mikea1:hover {
+  background: #1D427D;
+}
 .button__timing1 {
   width: 242px;
   height: 42px;
-  background: #DE0111;
   margin: 0px 20px 0px 0px;
 }
 .button__timing2 {
   width: 170px;
   height: 42px;
   background: #345995;
+}
+.button__timing2:hover {
+  background: #1D427D;
 }
 .button__details {
   height: 45px;
@@ -4259,24 +4280,28 @@ h6 {
   height: 42px;
   background: #345995;
 }
+.button__projects:hover {
+  background: #1D427D;
+}
 
 .button__mortgage {
   width: 398px;
   height: 50px;
-  background: #CD2B24;
 }
 
 .button__rent-red {
   height: 50px;
   width: 230px;
   margin: 0px 20px 0px 0px;
-  background: #DE0111;
 }
 
 .button__rent-blue {
   height: 50px;
   width: 160px;
   background: #345995;
+}
+.button__rent-blue:hover {
+  background: #1D427D;
 }
 
 .slider {

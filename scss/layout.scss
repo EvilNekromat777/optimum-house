@@ -74,6 +74,11 @@
 		margin: 18px 0px 0px 0px;
 		display: none;
 	}
+	&:hover{
+		border: 1px solid rgba(52, 89, 149, 0.1);
+		box-sizing: border-box;
+		color: #345995;
+	}
 }
 }
 .ui-selected{
