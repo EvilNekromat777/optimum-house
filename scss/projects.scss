@@ -1,0 +1,112 @@
+@import "null.scss";
+@import "mixins.scss";
+
+.projects{
+	margin: 70px 0px 0px 0px;
+	padding: 50px 30px 55px 30px;
+	&__items{
+		@include flexbox();
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	&__item{
+		margin: 40px 0px 0px 0px;
+		max-width: 388px;
+	}
+	&__item-info{
+		@include flexbox();
+	}
+	&__item-plashka{
+		height: 30px;
+		border-radius: 5px;
+		@include flexbox();
+		justify-content: center;
+		align-items: center;
+		@include font-style;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 140%;
+		margin: 0px 0px 10px 0px;
+	}
+	&__item-plashka_title{
+		width: 82px;
+		background: rgba(52, 89, 149, 0.2);
+		margin: 0px 11px 0px 0px;
+		color: #345995;
+	}
+	&__item-plashka_square{
+		width: 78px;
+		background: rgba(222, 1, 17, 0.2);
+		color: #DE0111;
+	}
+	&__item-plashka_img{
+		position: absolute;
+		top: 16px;
+		right: 16px;
+		width: 52px;
+		background: #345995;
+		color: #FFFFFF;
+		img{
+			margin: 0px 4px 0px 0px;
+		}
+	}
+	&__item-img{
+		position: relative;
+	}
+	&__item-place{
+		@include flexbox();
+		margin: 13px 0px 0px 0px;
+	}
+	&__item-adress{
+		margin: 0px 0px 0px 11px;
+		@include flexbox();
+		align-items: center;
+		@include font-style;
+		font-size: 16px;
+		line-height: 150%;
+		color: #3D3D3D;
+	}
+	&__item-details{
+		@include flexbox();
+		justify-content: space-between;
+	}
+	&__item-polzunok{
+		position: relative;
+	}
+	&__item-polzunok-body{
+		margin: 25px 0px 0px 0px;
+		width: 100%;
+		height: 7px;
+		background: #D0D0D0;
+		border-radius: 10px;
+	}
+	&__item-polzunok-body_plashka{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 80%;
+		background: #345995;
+		margin: 0;
+	}
+	&__item-polzunok-body_plashka2{
+		width: 100%;
+	}
+	&__item-polzunok-body_plashka3{
+		width: 60%;
+	}
+	&__item-phraza{
+		margin: 10px 0px 0px 0px;
+		text-align: center;
+		@include font-style;
+		font-size: 14px;
+		line-height: 150%;
+		color: #696969;
+	}
+	&__btn{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 65px 0px 0px 0px;
+
+	}
+}

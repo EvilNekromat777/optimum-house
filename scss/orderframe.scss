@@ -1,0 +1,36 @@
+@import "null.scss";
+@import "mixins.scss";
+
+.orderframe{
+	padding: 40px 0px 40px 0px;
+	position: relative;
+	margin: 0px 0px 70px 0px;
+	&__info{
+		max-width: 600px;
+		margin: 0px 0px 0px 44px;
+	}
+	&__subtitle{
+		margin: 20px 0px 30px 0px;
+		@include font-style;
+		font-size: 32px;
+		line-height: 110%;
+		color: #8C8C8C;
+	}
+	&__text{
+		@include font-style;
+		font-size: 22px;
+		line-height: 140%;
+		color: #3D3D3D;
+		margin: 0px 0px 44px 0px;
+	}
+	&__img{
+		position: absolute;
+		top: 42px;
+		right: 0;
+	}
+	&__items{
+		@include flexbox();
+		padding: 56px 15px 0 15px;
+	}
+	
+}

@@ -39,7 +39,7 @@ body {
 body {
     line-height: 1;
     font-size: 14px;
-    font-family: "Lato";
+    font-family: "Roboto";
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -48,7 +48,7 @@ body {
 input,
 button,
 textarea {
-    font-family: "Lato";
+    font-family: "Roboto";
 }
 
 input::-ms-clear {
@@ -90,6 +90,3 @@ h6 {
     font-weight: inherit;
     font-size: inherit;
 }
-
-//-webkit-overflow-scrolling: touch;
-//animation-play-state: paused !important;

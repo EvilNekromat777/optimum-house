@@ -1,0 +1,71 @@
+@import "null.scss";
+@import "mixins.scss";
+
+.banner1{
+	margin: 20px 0px 0px 0px;
+	position: relative;
+	width: 100%;
+	height: 360px;
+	background: url('../images/banner1/01.png') no-repeat;
+	padding: 24px 0px 0px 40px;
+	transition: all 1s ease 0s;
+	border-radius: 6px;
+	overflow: hidden;
+	&__opaciti{
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background: #000;
+		opacity: 0.3;
+	}
+	&__head{
+		position: relative;
+		z-index: 2;
+		display: inline-flex;
+		align-items: center;
+		transform: translate(0px, 120%);
+		opacity: 0;
+		transition: all 1s ease 0s;
+	}
+	&__title{
+		@include font-style;
+		font-weight: bold;
+		font-size: 50px;
+		line-height: 140%;
+		color: #FFFFFF;
+		margin: 0px 15px 0px 0px;
+	}
+	&__novinka{
+		width: 124px;
+		height: 30px;
+		background: #345995;
+		border-radius: 5px;
+		@include flexbox();
+		align-items: center;
+		justify-content: center;
+		@include font-style;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 140%;
+		color: #FFFFFF;
+	}
+	&__subtitle{
+		position: relative;
+		z-index: 2;
+		@include font-style;
+		font-size: 32px;
+		line-height: 110%;
+		color: #FFFFFF;
+		margin: 7px 0px 0px 0px;
+	}
+}
+.banner1.active{
+	margin: 115px 0px 0px 0px;
+	transition: all 1s ease 0s;
+}
+.banner1__head.active{
+	transform: translate(0px, 0px);
+		opacity: 1;
+}

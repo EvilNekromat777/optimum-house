@@ -1,0 +1,67 @@
+@import "null.scss";
+@import "mixins.scss";
+
+.level{
+	padding: 42px 43px 55px 43px;
+	margin: 0px 0px 70px 0px;
+	&__body{
+		@include flexbox();
+	}
+	&__title{
+		transform: translate(0px, 0px);
+		opacity: 1;
+	}
+	&__body-img{
+		margin: 0px 40px 0px 0px;
+	}
+	&__body-text{
+		@include font-style;
+		font-size: 22px;
+		line-height: 140%;
+		color: #3D3D3D;
+		margin: 30px 0px 0px 0px;
+		padding: 0px 67px 0px 0px;
+	}
+	&__items{
+		margin: 26px 0px 0px 0px;
+		@include flexbox();
+		flex-wrap: wrap;
+	}
+	&__item{
+		position: relative;
+		max-width: 398px;
+		margin: 30px 30px 0px 0px;
+		transform: scale(0);
+		transition: all 1s ease 0s;
+		&:nth-child(3n){
+			margin: 30px 0px 0px 0px;
+		}
+	}
+	&__item-info{
+		@include font-style;
+		font-weight: bold;
+		font-size: 22px;
+		line-height: 140%;
+		color: #FFFFFF;
+		position: absolute;
+		bottom: 30px;
+		left: 30px;
+		max-width: 309px;
+	}
+	&__item-text{
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 150%;
+		margin: 10px 0px 0px 0px;
+	}
+	&__item-opaciti{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+	}
+}
+.level__item.active{
+	transform: scale(1);
+}

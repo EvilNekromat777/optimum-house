@@ -1,0 +1,38 @@
+@import "null.scss";
+@import "mixins.scss";
+
+.enjoy{
+	text-align: center;
+	margin: 0px 0px 70px 0px;
+	&__title{
+		margin: 0 auto 40px;
+		text-align: center;
+	}
+	&__body{
+		padding: 40px;
+		@include flexbox();
+		justify-content: space-between;
+	}
+	&__info{
+		max-width: 579px;
+		text-align: left;
+		margin: 40px 0px 0px 0px;
+		position: relative;
+	}
+	&__info-title{
+		transform: translate(0px, 0px);
+		opacity: 1;
+	}
+	&__text{
+		margin: 30px 0px 0px 0px;
+		@include font-style;
+		font-size: 22px;
+		line-height: 140%;
+		color: #3D3D3D;
+	}
+	&__info-img{
+		position: absolute;
+		top: -38px;
+		left: -29px;
+	}
+}

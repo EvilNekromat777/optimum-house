@@ -1,0 +1,81 @@
+@import "null.scss";
+@import "mixins.scss";
+
+.lineup2021{
+	padding: 58px 0px 0px 0px;
+	&__info{
+		@include flexbox();
+		align-items:flex-end;
+	}
+	&__items{
+		margin: 2px 0px 0px 0px;
+		@include flexbox();
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	&__item{
+		width: 420px;
+		margin: 40px 0px 0px 0px;
+		@include flexbox();
+		flex-direction: column;
+		flex:0 1 30%;
+		position: relative;
+	}
+	&__item-info{
+		@include font-style;
+		font-size: 24px;
+		line-height: 140%;
+		color: #3D3D3D;
+		@include flexbox();
+		justify-content: space-between;
+	}
+	&__item-body{
+		background: #FFFFFF;
+		padding: 23px 20px 22px 20px;
+		box-shadow: 0px 0px 10px rgba(61, 61, 61, 0.08);
+		border-radius: 6px;
+	}
+	&__item-sber{
+		@include font-style;
+		font-size: 16px;
+		@include flexbox();
+		justify-content: space-between;
+		color: #21A038;
+		margin: 15px 0px 0px 0px;
+
+	}
+	&__item-sber-logo{
+		background: url('../images/lineup2021/sber_logo.png') no-repeat;
+		padding: 0px 0px 5px 20px;
+		font-weight: bold;
+	}
+	&__item-area{
+		width: 78px;
+		height: 30px;
+		background: #DE0111;
+		border-radius: 5px;
+		@include font-style;
+		font-weight: bold;
+		font-size: 16px;
+		@include flexbox();
+		align-items: center;
+		justify-content: center;
+		color: #FFFFFF;
+		position: absolute;
+		top: 16px;
+		right:20px;
+	}
+	&__item-title{
+		@include font-style;
+		font-size: 24px;
+		line-height: 140%;
+		color: #3D3D3D;
+	}
+	&__item-price{
+		@include font-style;
+		font-weight: bold;
+		font-size: 21px;
+		line-height: 140%;
+		color: #3D3D3D;
+	}
+}

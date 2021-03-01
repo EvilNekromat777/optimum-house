@@ -62,15 +62,20 @@
     -moz-transform: translate3d($x, $y, $z);
 }
 
-;
 
+@mixin font-style{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+}
+
+//@include flexbox();
 @mixin flexbox() {
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    // font-size: 0;
 }
 
 @mixin flexboxinline() {

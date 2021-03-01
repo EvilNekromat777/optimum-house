@@ -1,0 +1,29 @@
+@import "null.scss";
+@import "mixins.scss";
+
+.video{
+	padding: 36px 35px 50px 35px;
+	text-align: center;
+	&__body{
+		@include flexbox();
+		justify-content: space-between;
+	}
+	&__item{
+		flex:0 1 30%;
+		max-width: 408px;
+	}
+	&__title{
+		@include font-style;
+		font-weight: bold;
+		font-size: 22px;
+		line-height: 140%;
+		color: #3D3D3D;
+		margin: 0px 0px 38px 0px;
+		width: 314px;
+		text-align: left;
+	}
+	&__iframe{
+		width: 408px;
+		height: 230px;
+	}
+}

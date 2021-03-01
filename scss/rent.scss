@@ -1,0 +1,23 @@
+@import "null.scss";
+@import "mixins.scss";
+
+.rent{
+	margin: 70px 0px 70px 0px;
+	padding: 55px 49px 60px 40px;
+	@include flexbox();
+	&__subtitle{
+		@include font-style;
+		font-weight: bold;
+		font-size: 22px;
+		line-height: 140%;
+		color: #3D3D3D;
+		margin: 0px 0px 20px 0px;
+	}
+	&__subtitle_weight_normal{
+		font-weight: normal;
+		margin: 20px 0px 65px 0px;
+	}
+	&__video{
+		margin: 0px 0px 0px 48px;
+	}
+}

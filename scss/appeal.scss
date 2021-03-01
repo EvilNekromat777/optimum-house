@@ -1,0 +1,25 @@
+@import "null.scss";
+@import "mixins.scss";
+
+.appeal{
+	margin: 70px 0px 70px 0px;
+	position: relative;
+	&__title{
+		color: #FFFFFF;
+		position: absolute;
+		top: 100px;
+		left: 61px;
+		z-index: 2;
+		max-width: 469px;
+		line-height: 120%;
+	}
+	&__opaciti{
+		position: absolute;
+		top: 10px;
+		left: 0px;
+		z-index: 1;
+	}
+	&__img{
+		margin: 0px 0px 0px -10px;
+	}
+}

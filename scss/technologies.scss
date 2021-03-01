@@ -1,0 +1,70 @@
+@import "null.scss";
+@import "mixins.scss";
+
+
+.technologies{
+	margin: 0px 0px 32px 0px;
+	&__info{
+		@include flexbox();
+		padding: 70px 0px 0px 0px;
+		align-items:flex-end;
+		margin: 0px 0px 48px 0px;
+	}
+	&__main{
+		@include flexbox();
+	}
+	&__title{
+		transform: translate(0px, 0px);
+		opacity: 1;
+	}
+}
+
+.technologies-brick{
+	flex: 0 1 50%;
+	margin: 0px 40px 0px 0px;
+	&:last-child{
+		margin: 0px 0px 0px 0px;
+	}
+	&__info{
+	width: 324px;
+	height: 50px;
+	background:#3459951f;
+	border-radius: 6px;
+	@include font-style;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 140%;
+	color: #345995;
+	@include flexbox();
+	align-items: center;
+	justify-content: center;
+	margin: 0px 0px 20px 0px;
+	img{
+		margin: 0px 15px 0px 0px;
+	}
+	}
+	&__body{
+		@include flexbox();
+		padding: 30px 0px 0px 0px;
+		height: 292px;
+	}
+	&__body-title{
+		@include font-style;
+		font-weight: bold;
+		font-size: 22px;
+		line-height: 140%;
+		color: #3D3D3D;
+	}
+	&__body-p{
+		@include font-style;
+		font-size: 16px;
+		line-height: 150%;
+		color: #696969;
+		margin: 20px 0px 20px 0px;
+	}
+	&__body-text{
+		@include flexbox();
+		flex-direction: column;
+		max-width: 305px;
+	}
+}

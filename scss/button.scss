@@ -32,7 +32,7 @@
 		width: 364px;
 		height: 42px;
 		background: #345995;
-		margin: 34px 0px 0px 0px;
+		margin: 30px 0px 0px 0px;
 	}
 	&__mikea{
 		width: 160px;
@@ -62,16 +62,16 @@
 			margin: 0px 0px 0px 7px;
 		}
 	}
-	&__rent-red{
-		height: 50px;
-		width: 230px;
-		margin: 0px 20px 0px 0px;
-	}
-	&__rent-blue{
-		height: 50px;
-		width: 160px;
-		background: #345995;
-	}
+	//&__rent-red{
+	//	height: 50px;
+	//	width: 230px;
+	//	margin: 0px 20px 0px 0px;
+	//}
+	//&__rent-blue{
+	//	height: 50px;
+	//	width: 160px;
+	//	background: #345995;
+	//}
 	&__orderframe{
 		height: 45px;
 		width: 230px;
@@ -81,9 +81,25 @@
 		width: 280px;
 		margin: 20px 0px 0px 0px;
 	}
-	&__mortgage{
+	&__projects{
+		width: 190px;
+		height: 42px;
+		background: #345995;
+	}
+}
+.button__mortgage{
 		width: 398px;
 		height: 50px;
 		background: #CD2B24;
-	}
+}
+.button__rent-red{
+	height: 50px;
+	width: 230px;
+	margin: 0px 20px 0px 0px;
+	background: #DE0111;
+}
+.button__rent-blue{
+	height: 50px;
+	width: 160px;
+	background: #345995;
 }

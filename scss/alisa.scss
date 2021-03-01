@@ -1,0 +1,54 @@
+@import "null.scss";
+@import "mixins.scss";
+
+.alisa{
+	margin: 70px 0px 70px 0px;
+	background: #E6E7EB;
+	border-radius: 6px;
+	padding: 58px 53px 58px 43px;
+	@include flexbox();
+	justify-content: space-between;
+	&__title{
+		line-height: 120%;
+	}
+	&__logotips{
+		@include flexbox();
+		align-items: flex-end;
+		margin: 0px 0px 46px 0px;
+	}
+	&__logo{
+		margin: 0px 0px -20px -30px;
+		animation-name: blink;
+		animation-timing-function: linear;
+		animation-duration: 2s;
+		animation-iteration-count: infinite;
+	}
+	&__hi{
+		position: relative;
+		margin: 0px 0px 0px -10px;
+	}
+	&__hi-text{
+		position: absolute;
+		top: 10px;
+		left: 20px;
+		@include font-style;
+		font-size: 16.854px;
+		line-height: 140%;
+		color: #FFFFFF;
+	}
+	&__text{
+		@include font-style;
+		font-size: 22px;
+		line-height: 140%;
+		color: #3D3D3D;
+		margin: 18px 0px 0px 0px;
+	}
+	&__info{
+		max-width: 450px;
+	}
+}
+@keyframes blink {
+	50% {
+	  opacity: 0;
+	}
+ }

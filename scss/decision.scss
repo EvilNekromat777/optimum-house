@@ -1,0 +1,63 @@
+@import "null.scss";
+@import "mixins.scss";
+
+
+.decision{
+	margin: 50px 0px 57px 0px;
+	padding: 41px 0px 78px 0px;
+	@include flexbox();
+	flex-direction: column;
+	align-items: center;
+	&__slider{
+		position: relative;
+	}
+	&__title{
+		max-width: 570px;
+		text-align: center;
+		padding: 0px 0px 20px 0px;
+		line-height: 120%;
+		transform: translate(0px, 0px);
+		opacity: 1;
+	}
+	&__text{
+		margin: 0px auto;
+		max-width: 534px;
+		@include font-style;
+		font-size: 22px;
+		line-height: 140%;
+		text-align: center;
+		color: #3D3D3D;
+	}
+	&__items{
+		@include flexbox();
+		justify-content: center;
+		margin: 45px 0px 0px 0px;
+	}
+	&__item{
+		flex: 0 1 25%;
+		max-width: 110px;
+		@include flexbox();
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items:center;
+		margin: 0px 22px 0px 0px;
+		:last-child{
+			margin: 0px 0px 0px 0px;
+		}
+		img{
+			width: 60px;
+			height: 60px;
+		}
+		p{
+			padding: 20px 0px 0px 0px;
+			@include font-style;
+			font-size: 22px;
+			line-height: 140%;
+			text-align: center;
+			color: #3D3D3D;
+		}
+		&_big{
+			max-width: 149px;
+		}
+	}
+}

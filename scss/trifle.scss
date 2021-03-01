@@ -1,0 +1,52 @@
+@import "null.scss";
+@import "mixins.scss";
+
+.trifle{
+	text-align: center;
+	&__title{
+		display: inline-block;
+		text-align: center;
+	}
+	&__subtitle{
+		margin: 20px 0px 42px 0px;
+		@include font-style;
+		font-size: 32px;
+		line-height: 110%;
+		color: #696969;
+	}
+	&__items{
+		@include flexbox();
+		flex-wrap: wrap;
+		justify-content: space-between;
+		padding: 0px 30px 40px 30px;
+	}
+	&__item{
+		max-width: 390px;
+		text-align: left;
+		margin: 33px 0px 0px 0px;
+		@include font-style;
+		line-height: 140%;
+		align-items: center;
+		transform: scale(0);
+		transition: all 1s ease 0s;
+		img{
+			border-radius: 5px;
+		}
+	}
+	&__item-title{
+		@include font-style;
+		font-weight: bold;
+		font-size: 22px;
+		color: #3D3D3D;
+		margin: 24px 0px 15px 0px;
+	}
+	&__item-text{
+		@include font-style;
+		font-size: 16px;
+		color: #696969;
+		line-height: 150%;
+	}
+}
+.trifle__item.active{
+	transform: scale(1);
+}

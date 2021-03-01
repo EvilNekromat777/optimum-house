@@ -1,0 +1,72 @@
+@import "null.scss";
+@import "mixins.scss";
+
+.smart{
+	padding: 40px 40px 82px 40px;
+	&__subtitle{
+		@include font-style;
+		font-weight: bold;
+		font-size: 22px;
+		line-height: 140%;
+		color: #3D3D3D;
+		margin: 48px 0px 20px 0px;
+	}
+	&__text{
+		@include font-style;
+		font-size: 20px;
+		line-height: 140%;
+		color: #3D3D3D;
+		margin: 20px 0px 0px 0px;
+	}
+	&__body{
+		@include flexbox();
+		justify-content: space-between;
+	}
+	&__info{
+		max-width: 500px;
+	}
+	&__items{
+		@include flexbox();
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin: 13px 0px 0px 0px;
+	}
+	&__item{
+		flex: 0 1 33%;
+		max-width: 340px;
+		margin: 53px 0px 0px 0px;
+	}
+	&__item-img{
+		margin: 0px 0px 28px 0px;
+	}
+	&__item-title{
+		@include font-style;
+		font-weight: bold;
+		font-size: 22px;
+		line-height: 140%;
+		color: #3D3D3D;
+	}
+	&__item-text{
+		@include font-style;
+		font-size: 16px;
+		line-height: 150%;
+		color: #3D3D3D;
+		margin: 22px 0px 0px 0px;
+	}
+	&__item-title_big_margin{
+		padding: 10px 0px 0px 0px;
+	}
+	&__plashka{
+		background: #CDDEF4;
+		border-radius: 5px;
+		width: 150px;
+		height: 27px;
+		color: #345995;
+		@include flexbox();
+		align-items: center;
+		justify-content: center;
+		@include font-style;
+		font-weight: bold;
+		font-size: 16px;
+	}
+}
