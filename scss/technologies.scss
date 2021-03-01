@@ -13,10 +13,6 @@
 	&__main{
 		@include flexbox();
 	}
-	&__title{
-		transform: translate(0px, 0px);
-		opacity: 1;
-	}
 }
 
 .technologies-brick{
